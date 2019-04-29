@@ -6,18 +6,13 @@
         <!-- NAV -->
         <ul class="nav ownmenu">
             <li class="active"> <a href="{{url('/')}}">Home </a> </li>
-            <li> <a href="index.html">Pages</a>
+            <li> <a href="">Our Works</a>
                 <ul class="dropdown animated-3s fadeIn">
-                    <li> <a href="index.html">Index 1</a></li>
-                    <li> <a href="index-1.html">Index 2</a></li>
-                    <li> <a href="about.html">About</a></li>
-                    <li> <a href="media.html">Media</a></li>
-                    <li> <a href="music_01.html">Music</a></li>
-                    <li> <a href="news.html">News</a></li>
-                    <li> <a href="profile.html">Profile</a></li>
-                    <li> <a href="profile-light.html">Profile Light</a></li>
-                    <li> <a href="profile-song-list.html">Profile Song List</a></li>
-                    <li> <a href="search-page(artists).html">Artists</a></li>
+                    <li> <a href="{{url('music')}}">Music</a></li>
+                    <li> <a href="{{url('blog')}}">News</a></li>
+                    <li> <a href="{{url('media')}}">Media</a></li>
+                    {{--<li> <a href="music_01.html">Music</a></li>--}}
+                    {{--<li> <a href="search-page(artists).html">Artists</a></li>--}}
                 </ul>
             </li>
             <li> <a href="{{url('about')}}">About</a> </li>

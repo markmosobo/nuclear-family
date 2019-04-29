@@ -12,11 +12,12 @@ return [
     | your application here. By default, Laravel is setup for SMTP mail.
     |
     | Supported: "smtp", "sendmail", "mailgun", "mandrill", "ses",
-    |            "sparkpost", "postmark", "log", "array"
+    |            "sparkpost", "log", "array"
     |
     */
 
     'driver' => env('MAIL_DRIVER', 'smtp'),
+//    'driver' => 'smtp',
 
     /*
     |--------------------------------------------------------------------------
@@ -30,6 +31,7 @@ return [
     */
 
     'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+//    'host' => 'mail.openpathsolutions.co.ke',
 
     /*
     |--------------------------------------------------------------------------
@@ -42,7 +44,9 @@ return [
     |
     */
 
-    'port' => env('MAIL_PORT', 587),
+//    'port' => env('MAIL_PORT', 587),
+//    'port' => 465,
+    'port' => env('MAIL_PORT', 465), //for ssl commented by alex/
 
     /*
     |--------------------------------------------------------------------------
@@ -56,8 +60,9 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+//        'address' => env('MAIL_FROM_ADDRESS', 'county-clerk@kiambucountyassembly'),
+        'address' => 'admin@salasa.co.ke',
+        'name' => 'Salasa',
     ],
 
     /*
@@ -72,6 +77,7 @@ return [
     */
 
     'encryption' => env('MAIL_ENCRYPTION', 'tls'),
+//    'encryption' => 'tls',
 
     /*
     |--------------------------------------------------------------------------
@@ -85,8 +91,10 @@ return [
     */
 
     'username' => env('MAIL_USERNAME'),
+//    'username' => 'admin@openpathsolutions.co.ke',
 
     'password' => env('MAIL_PASSWORD'),
+//    'password' => 'admin12!@',
 
     /*
     |--------------------------------------------------------------------------
@@ -119,18 +127,5 @@ return [
             resource_path('views/vendor/mail'),
         ],
     ],
-
-    /*
-    |--------------------------------------------------------------------------
-    | Log Channel
-    |--------------------------------------------------------------------------
-    |
-    | If you are using the "log" driver, you may specify the logging channel
-    | if you prefer to keep mail messages separate from other log entries
-    | for simpler reading. Otherwise, the default channel will be used.
-    |
-    */
-
-    'log_channel' => env('MAIL_LOG_CHANNEL'),
 
 ];
