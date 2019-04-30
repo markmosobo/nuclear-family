@@ -67,7 +67,8 @@ class BlogDataTable extends DataTable
             'title',
             'date',
             'time',
-            'image_path'
+            'image_path',
+            'body'
         ];
     }
 

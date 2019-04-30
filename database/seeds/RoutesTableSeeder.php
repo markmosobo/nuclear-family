@@ -56,7 +56,7 @@ class RoutesTableSeeder extends Seeder
         $cChild = Route::create([
             'route_name'=> 'About Nuklear',
             'parent_route'=> $configurations->id,
-            'url'=>'#',
+            'url'=>'aboutuses',
         ]);
         $cChild->roles()->attach($admin);
 

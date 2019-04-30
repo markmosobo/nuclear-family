@@ -8,20 +8,20 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 /**
  * Class AboutUs
  * @package App\Models
- * @version March 8, 2019, 10:47 am EAT
+ * @version April 30, 2019, 3:49 pm EAT
  *
- * @property \Illuminate\Database\Eloquent\Collection churchGroupMembers
  * @property \Illuminate\Database\Eloquent\Collection roleRoute
  * @property \Illuminate\Database\Eloquent\Collection roleUser
  * @property \Illuminate\Database\Eloquent\Collection roles
- * @property string about_category
+ * @property string background
  * @property string body
+ * @property string conclusion
  */
 class AboutUs extends Model
 {
     use SoftDeletes;
 
-    public $table = 'about_us';
+    public $table = 'aboutus';
     
     const CREATED_AT = 'created_at';
     const UPDATED_AT = 'updated_at';
@@ -31,8 +31,9 @@ class AboutUs extends Model
 
 
     public $fillable = [
-        'about_category',
-        'body'
+        'background',
+        'body',
+        'conclusion'
     ];
 
     /**
@@ -42,8 +43,9 @@ class AboutUs extends Model
      */
     protected $casts = [
         'id' => 'integer',
-        'about_category' => 'string',
-        'body' => 'string'
+        'background' => 'string',
+        'body' => 'string',
+        'conclusion' => 'string'
     ];
 
     /**

@@ -64,8 +64,9 @@ class AboutUsDataTable extends DataTable
     protected function getColumns()
     {
         return [
-            'about_category',
-            'body'
+            'background',
+            'body',
+            'conclusion'
         ];
     }
 

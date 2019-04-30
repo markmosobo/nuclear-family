@@ -2,91 +2,266 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb042a21-11f9-47fe-bd9d-3bc6cf3be095" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/front/media.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/front/music.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/nuclearfamily.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nuclearfamily.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DataTables/AboutUsDataTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/DataTables/AboutUsDataTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DataTables/BlogDataTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/DataTables/BlogDataTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DataTables/CashPaymentDataTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DataTables/ClientDataTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DataTables/ExpenditureDataTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DataTables/InfoBipDataTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DataTables/InterestRateDataTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CustomerAccountController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/hashing.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/hashing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/database/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/about.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/AboutUs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/AboutUs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Bank.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Bill.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/BillDetail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/CommonQuestion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Customer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/CustomerAccount.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/CustomerMessage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/DepositRefund.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Event.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/EventCategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/EventMessage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/EventSchedule.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Expenditure.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/InterestRate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Landlord.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/LandlordAccount.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/LandlordBank.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/LandlordRemittance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/LandlordSettlement.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Lease.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/LoanPayment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Members.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Notice.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/OfficeExpenditure.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/OfficeRevenue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/OpeningBalance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/PayBill.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Payment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/PaymentTransfer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Property.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/PropertyExpenditure.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/PropertyListing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/PropertyType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/PropertyUnit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Sermon.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/SermonCategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/SermonSpeaker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Service.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ServiceOption.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Slide.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/SoldProperty.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/SplitPayments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Staff.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/blogCategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/churchGroup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/churchGroupMember.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/AboutUsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/AboutUsRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/BlogRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/BlogRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/LandlordBankRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/LandlordRemittanceRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/LandlordRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/LandlordSettlementRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/LeaseRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/LoanPaymentRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/LoanRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/MembersRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/OfficeExpenditureRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/OfficeRevenueRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/OpeningBalanceRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/PayBillRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/PaymentRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/PaymentTransferRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/PlenarySittingRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/PropertyExpenditureRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/PropertyListingRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/PropertyRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/PropertyTypeRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/PropertyUnitRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/RoleRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/SermonCategoryRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/SermonRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/SermonSpeakerRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/ServiceOptionRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/ServiceRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/SlideRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/SoldPropertyRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_29_031432_create_blog_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_29_215951_create_contacts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_04_29_215951_create_contacts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/RoutesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/RoutesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/aboutuses/fields.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/aboutuses/fields.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blogs/fields.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blogs/fields.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cash_payments/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cash_payments/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cash_payments/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cash_payments/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/claims/accident_details.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/claims/injured_persons.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/claims/more_accident_details.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/claims/other_vehicle.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/claims/vehicle_details.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/deposit_refunds/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/deposit_refunds/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/deposit_refunds/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/deposit_refunds/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/emails/account/registration.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/expenditures/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/expenditures/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/expenditures/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/expenditures/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/artists.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/allartists.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/front/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/partials/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/interest_rates/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/interest_rates/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/interest_rates/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/interest_rates/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landlord_accounts/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landlord_accounts/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landlord_accounts/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landlord_accounts/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landlord_banks/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landlord_banks/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landlord_banks/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landlord_banks/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landlord_remittances/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landlord_remittances/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landlord_remittances/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landlord_remittances/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landlord_settlements/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landlord_settlements/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landlord_settlements/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landlord_settlements/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landlords/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landlords/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landlords/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landlords/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landlords/uploads.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/leases/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/leases/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/leases/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/leases/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/loan_payments/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/loan_payments/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/loan_payments/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/loan_payments/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/loans/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/loans/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/loans/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/loans/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/members/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/members/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/members/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/members/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/office_expenditures/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/office_expenditures/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/office_expenditures/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/office_expenditures/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/office_revenues/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/office_revenues/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/office_revenues/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/office_revenues/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/opening_balances/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/opening_balances/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/opening_balances/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/opening_balances/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pay_bills/add-bills.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pay_bills/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pay_bills/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pay_bills/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pay_bills/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/payment_transfers/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/payment_transfers/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/payment_transfers/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/payment_transfers/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/payments/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/payments/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/payments/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/payments/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/payments/uploads.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/properties/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/properties/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/properties/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/properties/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/property_expenditures/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/property_expenditures/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/property_expenditures/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/property_expenditures/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/property_listings/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/property_listings/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/property_listings/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/property_listings/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/property_types/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/property_types/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/property_types/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/property_types/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/property_units/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/property_units/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/property_units/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/property_units/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/bank-statement.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/collection-report.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/customer-statement.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/daily-payments.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/deposit-report.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/landlord-plot-statement.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/landlord-properties-settlement.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/landlord-settlement.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/landlord-summary-statement.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/lanlordremitance-statement.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/overdue-report.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/plot-statement.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/property-statement.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/property-statement2.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/property-statement3.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/rent-property-statement.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/repayments.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/tenant-arrears.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/tenant-statement.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sermons/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sermons/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sermons/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sermons/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/service_options/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/service_options/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/service_options/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/service_options/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/services/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/services/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/services/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/services/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/slides/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/slides/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/slides/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/slides/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sold_properties/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sold_properties/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sold_properties/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sold_properties/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/split_payments/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/split_payments/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/split_payments/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/split_payments/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/staff/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/staff/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/staff/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/staff/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tenants/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tenants/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tenants/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tenants/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/terminated_leases/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/terminated_leases/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/terminated_leases/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/terminated_leases/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/unprocessed_payments/datatables_actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/unprocessed_payments/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/unprocessed_payments/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/unprocessed_payments/table.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -129,39 +304,30 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="FrontEndController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+            <state relative-caret-position="185">
+              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoutesTableSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/RoutesTableSeeder.php">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-434">
-              <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+            <state relative-caret-position="85">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019_04_29_215951_create_contacts_table.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_29_215951_create_contacts_table.php">
+      <file leaf-file-name="about.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/front/about.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2019_04_29_031432_create_blog_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_29_031432_create_blog_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+            <state relative-caret-position="421">
+              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -182,17 +348,20 @@
         <option value="$PROJECT_DIR$/resources/views/front/blog.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/about.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/media.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/front/partials/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/music.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/index.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_29_031432_create_blog_table.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_29_025921_create_artists_table.php" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/database/seeds/RoutesTableSeeder.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_29_215951_create_contacts_table.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/partials/header.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_04_30_152706_create_blogs_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_04_30_154159_create_aboutus_table.php" />
+        <option value="$PROJECT_DIR$/database/seeds/RoutesTableSeeder.php" />
+        <option value="$PROJECT_DIR$/resources/views/aboutuses/fields.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php" />
       </list>
     </option>
   </component>
@@ -350,13 +519,7 @@
             <path>
               <item name="nuclearfamily" type="b2602c69:ProjectViewProjectNode" />
               <item name="nuclearfamily" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="nuclearfamily" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nuclearfamily" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -401,12 +564,14 @@
       <workItem from="1556174826012" duration="982000" />
       <workItem from="1556494674546" duration="2867000" />
       <workItem from="1556522338170" duration="5666000" />
-      <workItem from="1556562775775" duration="1661000" />
+      <workItem from="1556562775775" duration="2292000" />
+      <workItem from="1556618518441" duration="218000" />
+      <workItem from="1556627030202" duration="5149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23293000" />
+    <option name="totallyTimeSpent" value="29291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -418,10 +583,10 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24558587" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27912253" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19261637" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21860817" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.15355521" />
+      <window_info anchor="right" id="Database" order="3" weight="0.15355521" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -464,13 +629,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/front/partials/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -576,7 +734,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/artists.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/front/allartists.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3536">
           <caret line="208" column="14" selection-start-line="208" selection-start-column="14" selection-end-line="208" selection-end-column="14" />
@@ -625,31 +783,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/blog.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2491">
-          <caret line="152" column="14" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/artists.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="208" column="14" selection-start-line="208" selection-start-column="14" selection-end-line="208" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/front/main.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/about.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" column="57" selection-start-line="78" selection-start-column="57" selection-end-line="78" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -674,20 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/partials/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -706,13 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
           <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -772,10 +888,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/blog.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="152" column="14" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_29_031432_create_blog_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+        <state relative-caret-position="240">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="21" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/RoutesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -786,17 +916,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/RoutesTableSeeder.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_29_215951_create_contacts_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-434">
-          <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+        <state relative-caret-position="218">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_29_215951_create_contacts_table.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/front/partials/header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="187">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_30_152706_create_blogs_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_30_154159_create_aboutus_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/aboutuses/fields.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="79" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/allartists.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#103#517#0#HTML" />
+            <element signature="e#547#1530#0#HTML" />
+            <element signature="e#1555#9533#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/menus/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/about.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
         </state>
       </provider>
     </entry>

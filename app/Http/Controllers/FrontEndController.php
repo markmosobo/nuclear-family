@@ -24,6 +24,7 @@ class FrontEndController extends Controller
 
     public function about(){
         return view('front.about',[
+            'about'=>AboutUs::all()
         ]);
     }
 
@@ -42,8 +43,8 @@ class FrontEndController extends Controller
         ]);
     }
 
-    public function artists(){
-        return view('front.artists',[
+    public function allArtists(){
+        return view('front.allartists',[
 
         ]);
     }

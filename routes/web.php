@@ -3,8 +3,8 @@ Route::get('/','FrontEndController@index');
 Route::get('about','FrontEndController@about');
 Route::get('music','FrontEndController@music');
 Route::get('media','FrontEndController@media');
-Route::get('blog','FrontEndController@blog');
-Route::get('artists','FrontEndController@artists');
+Route::get('news','FrontEndController@blog');
+Route::get('allartists','FrontEndController@allArtists');
 Route::get('signup','FrontEndController@signUp');
 Route::get('/login','HomeController@index');
 
@@ -125,9 +125,14 @@ Route::resource('aboutuses', 'AboutUsController');
 
 Route::resource('blogCategories', 'blogCategoryController');
 
-Route::resource('blogs', 'BlogController');
+
 
 
 Route::resource('artists', 'ArtistController');
 
+
+
+
 Route::resource('blogs', 'BlogController');
+
+Route::resource('aboutuses', 'AboutUsController');
